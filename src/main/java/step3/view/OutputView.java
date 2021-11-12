@@ -6,6 +6,7 @@ public class OutputView {
 
     public static void printResult(CarRacingGame carRacingGame) {
         System.out.println("실행 결과");
-        carRacingGame.printFinalResult();
+        String result = carRacingGame.getResult();
+        System.out.println(result);
     }
 }
